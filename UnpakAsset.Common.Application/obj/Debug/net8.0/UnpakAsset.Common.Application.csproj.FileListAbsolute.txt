@@ -1,0 +1,16 @@
+C:\dev_net\UnpakAsset\UnpakAsset.Common.Application\bin\Debug\net8.0\UnpakAsset.Common.Application.deps.json
+C:\dev_net\UnpakAsset\UnpakAsset.Common.Application\bin\Debug\net8.0\UnpakAsset.Common.Application.dll
+C:\dev_net\UnpakAsset\UnpakAsset.Common.Application\bin\Debug\net8.0\UnpakAsset.Common.Application.pdb
+C:\dev_net\UnpakAsset\UnpakAsset.Common.Application\bin\Debug\net8.0\UnpakAsset.Common.Domain.dll
+C:\dev_net\UnpakAsset\UnpakAsset.Common.Application\bin\Debug\net8.0\UnpakAsset.Common.Domain.pdb
+C:\dev_net\UnpakAsset\UnpakAsset.Common.Application\obj\Debug\net8.0\UnpakAsset.Common.Application.csproj.AssemblyReference.cache
+C:\dev_net\UnpakAsset\UnpakAsset.Common.Application\obj\Debug\net8.0\UnpakAsset.Common.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev_net\UnpakAsset\UnpakAsset.Common.Application\obj\Debug\net8.0\UnpakAsset.Common.Application.AssemblyInfoInputs.cache
+C:\dev_net\UnpakAsset\UnpakAsset.Common.Application\obj\Debug\net8.0\UnpakAsset.Common.Application.AssemblyInfo.cs
+C:\dev_net\UnpakAsset\UnpakAsset.Common.Application\obj\Debug\net8.0\UnpakAsset.Common.Application.csproj.CoreCompileInputs.cache
+C:\dev_net\UnpakAsset\UnpakAsset.Common.Application\obj\Debug\net8.0\UnpakAsset.Common.Application.sourcelink.json
+C:\dev_net\UnpakAsset\UnpakAsset.Common.Application\obj\Debug\net8.0\UnpakAss.07EF48C1.Up2Date
+C:\dev_net\UnpakAsset\UnpakAsset.Common.Application\obj\Debug\net8.0\UnpakAsset.Common.Application.dll
+C:\dev_net\UnpakAsset\UnpakAsset.Common.Application\obj\Debug\net8.0\refint\UnpakAsset.Common.Application.dll
+C:\dev_net\UnpakAsset\UnpakAsset.Common.Application\obj\Debug\net8.0\UnpakAsset.Common.Application.pdb
+C:\dev_net\UnpakAsset\UnpakAsset.Common.Application\obj\Debug\net8.0\ref\UnpakAsset.Common.Application.dll

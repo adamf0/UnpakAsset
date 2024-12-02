@@ -1,0 +1,16 @@
+C:\dev_net\UnpakAsset\UnpakAsset.Modules.Asset.Domain\bin\Debug\net8.0\UnpakAsset.Modules.Asset.Domain.deps.json
+C:\dev_net\UnpakAsset\UnpakAsset.Modules.Asset.Domain\bin\Debug\net8.0\UnpakAsset.Modules.Asset.Domain.dll
+C:\dev_net\UnpakAsset\UnpakAsset.Modules.Asset.Domain\bin\Debug\net8.0\UnpakAsset.Modules.Asset.Domain.pdb
+C:\dev_net\UnpakAsset\UnpakAsset.Modules.Asset.Domain\bin\Debug\net8.0\UnpakAsset.Common.Domain.dll
+C:\dev_net\UnpakAsset\UnpakAsset.Modules.Asset.Domain\bin\Debug\net8.0\UnpakAsset.Common.Domain.pdb
+C:\dev_net\UnpakAsset\UnpakAsset.Modules.Asset.Domain\obj\Debug\net8.0\UnpakAsset.Modules.Asset.Domain.csproj.AssemblyReference.cache
+C:\dev_net\UnpakAsset\UnpakAsset.Modules.Asset.Domain\obj\Debug\net8.0\UnpakAsset.Modules.Asset.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev_net\UnpakAsset\UnpakAsset.Modules.Asset.Domain\obj\Debug\net8.0\UnpakAsset.Modules.Asset.Domain.AssemblyInfoInputs.cache
+C:\dev_net\UnpakAsset\UnpakAsset.Modules.Asset.Domain\obj\Debug\net8.0\UnpakAsset.Modules.Asset.Domain.AssemblyInfo.cs
+C:\dev_net\UnpakAsset\UnpakAsset.Modules.Asset.Domain\obj\Debug\net8.0\UnpakAsset.Modules.Asset.Domain.csproj.CoreCompileInputs.cache
+C:\dev_net\UnpakAsset\UnpakAsset.Modules.Asset.Domain\obj\Debug\net8.0\UnpakAsset.Modules.Asset.Domain.sourcelink.json
+C:\dev_net\UnpakAsset\UnpakAsset.Modules.Asset.Domain\obj\Debug\net8.0\UnpakAss.577C1442.Up2Date
+C:\dev_net\UnpakAsset\UnpakAsset.Modules.Asset.Domain\obj\Debug\net8.0\UnpakAsset.Modules.Asset.Domain.dll
+C:\dev_net\UnpakAsset\UnpakAsset.Modules.Asset.Domain\obj\Debug\net8.0\refint\UnpakAsset.Modules.Asset.Domain.dll
+C:\dev_net\UnpakAsset\UnpakAsset.Modules.Asset.Domain\obj\Debug\net8.0\UnpakAsset.Modules.Asset.Domain.pdb
+C:\dev_net\UnpakAsset\UnpakAsset.Modules.Asset.Domain\obj\Debug\net8.0\ref\UnpakAsset.Modules.Asset.Domain.dll

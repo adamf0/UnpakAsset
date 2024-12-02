@@ -1,0 +1,12 @@
+C:\dev_net\UnpakAsset\UnpakAsset.Common.Domain\bin\Debug\net8.0\UnpakAsset.Common.Domain.deps.json
+C:\dev_net\UnpakAsset\UnpakAsset.Common.Domain\bin\Debug\net8.0\UnpakAsset.Common.Domain.dll
+C:\dev_net\UnpakAsset\UnpakAsset.Common.Domain\bin\Debug\net8.0\UnpakAsset.Common.Domain.pdb
+C:\dev_net\UnpakAsset\UnpakAsset.Common.Domain\obj\Debug\net8.0\UnpakAsset.Common.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev_net\UnpakAsset\UnpakAsset.Common.Domain\obj\Debug\net8.0\UnpakAsset.Common.Domain.AssemblyInfoInputs.cache
+C:\dev_net\UnpakAsset\UnpakAsset.Common.Domain\obj\Debug\net8.0\UnpakAsset.Common.Domain.AssemblyInfo.cs
+C:\dev_net\UnpakAsset\UnpakAsset.Common.Domain\obj\Debug\net8.0\UnpakAsset.Common.Domain.csproj.CoreCompileInputs.cache
+C:\dev_net\UnpakAsset\UnpakAsset.Common.Domain\obj\Debug\net8.0\UnpakAsset.Common.Domain.sourcelink.json
+C:\dev_net\UnpakAsset\UnpakAsset.Common.Domain\obj\Debug\net8.0\UnpakAsset.Common.Domain.dll
+C:\dev_net\UnpakAsset\UnpakAsset.Common.Domain\obj\Debug\net8.0\refint\UnpakAsset.Common.Domain.dll
+C:\dev_net\UnpakAsset\UnpakAsset.Common.Domain\obj\Debug\net8.0\UnpakAsset.Common.Domain.pdb
+C:\dev_net\UnpakAsset\UnpakAsset.Common.Domain\obj\Debug\net8.0\ref\UnpakAsset.Common.Domain.dll

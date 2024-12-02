@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "UnpakAsset.Common.Presentation/1.0.0": {
+        "dependencies": {
+          "UnpakAsset.Common.Domain": "1.0.0"
+        },
+        "runtime": {
+          "UnpakAsset.Common.Presentation.dll": {}
+        }
+      },
+      "UnpakAsset.Common.Domain/1.0.0": {
+        "runtime": {
+          "UnpakAsset.Common.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "UnpakAsset.Common.Presentation/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "UnpakAsset.Common.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

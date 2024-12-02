@@ -1,0 +1,16 @@
+C:\dev_net\UnpakAsset\UnpakAsset.Common.Presentation\bin\Debug\net8.0\UnpakAsset.Common.Presentation.deps.json
+C:\dev_net\UnpakAsset\UnpakAsset.Common.Presentation\bin\Debug\net8.0\UnpakAsset.Common.Presentation.dll
+C:\dev_net\UnpakAsset\UnpakAsset.Common.Presentation\bin\Debug\net8.0\UnpakAsset.Common.Presentation.pdb
+C:\dev_net\UnpakAsset\UnpakAsset.Common.Presentation\bin\Debug\net8.0\UnpakAsset.Common.Domain.dll
+C:\dev_net\UnpakAsset\UnpakAsset.Common.Presentation\bin\Debug\net8.0\UnpakAsset.Common.Domain.pdb
+C:\dev_net\UnpakAsset\UnpakAsset.Common.Presentation\obj\Debug\net8.0\UnpakAsset.Common.Presentation.csproj.AssemblyReference.cache
+C:\dev_net\UnpakAsset\UnpakAsset.Common.Presentation\obj\Debug\net8.0\UnpakAsset.Common.Presentation.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev_net\UnpakAsset\UnpakAsset.Common.Presentation\obj\Debug\net8.0\UnpakAsset.Common.Presentation.AssemblyInfoInputs.cache
+C:\dev_net\UnpakAsset\UnpakAsset.Common.Presentation\obj\Debug\net8.0\UnpakAsset.Common.Presentation.AssemblyInfo.cs
+C:\dev_net\UnpakAsset\UnpakAsset.Common.Presentation\obj\Debug\net8.0\UnpakAsset.Common.Presentation.csproj.CoreCompileInputs.cache
+C:\dev_net\UnpakAsset\UnpakAsset.Common.Presentation\obj\Debug\net8.0\UnpakAsset.Common.Presentation.sourcelink.json
+C:\dev_net\UnpakAsset\UnpakAsset.Common.Presentation\obj\Debug\net8.0\UnpakAss.BC267FE6.Up2Date
+C:\dev_net\UnpakAsset\UnpakAsset.Common.Presentation\obj\Debug\net8.0\UnpakAsset.Common.Presentation.dll
+C:\dev_net\UnpakAsset\UnpakAsset.Common.Presentation\obj\Debug\net8.0\refint\UnpakAsset.Common.Presentation.dll
+C:\dev_net\UnpakAsset\UnpakAsset.Common.Presentation\obj\Debug\net8.0\UnpakAsset.Common.Presentation.pdb
+C:\dev_net\UnpakAsset\UnpakAsset.Common.Presentation\obj\Debug\net8.0\ref\UnpakAsset.Common.Presentation.dll
