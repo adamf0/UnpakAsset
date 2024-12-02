@@ -22,7 +22,5 @@ ini merupakan prototype aplikasi siasset terbaru menggunakan teknologi <b>NET Co
 9. modul repair asset
 10. modul ticket
 11. authentication
-    6.1 datbase simak
-    6.2 migrasi ke keyclock
 12. docker
 13. reduce image & solve CVE image docker
