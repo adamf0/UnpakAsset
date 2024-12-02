@@ -14,8 +14,8 @@ ini merupakan prototype aplikasi siasset terbaru menggunakan teknologi <b>NET Co
 3. modul sub group
 4. modul location
 5. modul assign asset
-    5.1. modul assign to department
-    5.2. modul assign to user
+    <br>5.1. modul assign to department
+    <br>5.2. modul assign to user
 6. modul disposal asset
 7. modul move asset
 8. modul physical asset
