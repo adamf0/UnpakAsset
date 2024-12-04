@@ -3,18 +3,18 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Routing;
 using UnpakAsset.Common.Domain;
-using UnpakAsset.Modules.Asset.Application.GetAsset;
 using UnpakAsset.Common.Presentation.ApiResults;
+using UnpakAsset.Modules.AssignAsset.Application.GetAssignAsset;
 
-namespace UnpakAsset.Modules.Asset.Presentation.Asset
+namespace UnpakAsset.Modules.AssignAsset.Presentation.AssignAsset
 {
-    internal static class GetAsset
+    internal static class GetAssignAsset
     {
         public static void MapEndpoint(IEndpointRouteBuilder app)
         {
-            app.MapGet("asset/{id}", async (Guid id, ISender sender) =>
+            app.MapGet("assign/asset/{id}", async (Guid id, ISender sender) =>
             {
-                Result<AssetResponse> result = await sender.Send(new GetAssetQuery(id));
+                Result<AssignAssetResponse> result = await sender.Send(new GetAssignAssetQuery(id));
 
                 return result.Match(Results.Ok, ApiResults.Problem);
             });

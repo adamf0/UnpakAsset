@@ -16,7 +16,7 @@ namespace UnpakAsset.Modules.Asset.Domain.Asset
 
         public static readonly Error GroupAndLocationNotFound = Error.Problem(
             "Asset.GroupAndLocationNotFound",
-            "Kkategori antara Grup atau Lokasi tidak boleh kosong");
+            "Kategori antara Grup atau Lokasi tidak boleh kosong");
 
         public static readonly Error TanggalTerdaftarInvalidDate = Error.Problem(
             "Asset.TanggalTerdaftarInvalidDate",

@@ -6,7 +6,7 @@ using UnpakAsset.Modules.Asset.Domain.Asset;
 namespace UnpakAsset.Modules.Asset.Application.CreateAsset
 {
     internal sealed class CreateAssetCommandHandler(
-    IAssetRepository userRepository,
+    IAssetRepository assetRepository,
     IUnitOfWork unitOfWork)
     : ICommandHandler<CreateAssetCommand, Guid>
     {
@@ -30,7 +30,7 @@ namespace UnpakAsset.Modules.Asset.Application.CreateAsset
                 return Result.Failure<Guid>(result.Error);
             }
 
-            userRepository.Insert(result.Value);
+            assetRepository.Insert(result.Value);
 
             await unitOfWork.SaveChangesAsync(cancellationToken);
 

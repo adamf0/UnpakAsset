@@ -6,13 +6,13 @@ using UnpakAsset.Modules.Asset.Domain.Asset;
 namespace UnpakAsset.Modules.Asset.Application.UpdateAsset
 {
     internal sealed class UpdateAssetCommandHandler(
-    IAssetRepository userRepository,
+    IAssetRepository assetRepository,
     IUnitOfWork unitOfWork)
     : ICommandHandler<UpdateAssetCommand>
     {
         public async Task<Result> Handle(UpdateAssetCommand request, CancellationToken cancellationToken)
         {
-            Domain.Asset.Asset? existingAsset = await userRepository.GetAsync(request.Id, cancellationToken);
+            Domain.Asset.Asset? existingAsset = await assetRepository.GetAsync(request.Id, cancellationToken);
 
             if (existingAsset is null)
             {

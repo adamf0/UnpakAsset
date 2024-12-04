@@ -6,7 +6,7 @@ using UnpakAsset.Modules.Tag.Domain.Group;
 namespace UnpakAsset.Modules.Tag.Application.CreateGroup
 {
     internal sealed class CreateGroupCommandHandler(
-    IGroupRepository userRepository,
+    IGroupRepository groupRepository,
     IUnitOfWork unitOfWork)
     : ICommandHandler<CreateGroupCommand, Guid>
     {
@@ -21,7 +21,7 @@ namespace UnpakAsset.Modules.Tag.Application.CreateGroup
                 return Result.Failure<Guid>(result.Error);
             }
 
-            userRepository.Insert(result.Value);
+            groupRepository.Insert(result.Value);
 
             await unitOfWork.SaveChangesAsync(cancellationToken);
 

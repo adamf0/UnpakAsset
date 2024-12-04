@@ -6,20 +6,22 @@ using UnpakAsset.Modules.Asset.Domain.Asset;
 namespace UnpakAsset.Modules.Asset.Application.DeleteAsset
 {
     internal sealed class DeleteAssetCommandHandler(
-    IAssetRepository userRepository,
+    IAssetRepository assetRepository,
     IUnitOfWork unitOfWork)
     : ICommandHandler<DeleteAssetCommand>
     {
         public async Task<Result> Handle(DeleteAssetCommand request, CancellationToken cancellationToken)
         {
-            Domain.Asset.Asset? existingAsset = await userRepository.GetAsync(request.Id, cancellationToken);
+            Domain.Asset.Asset? existingAsset = await assetRepository.GetAsync(request.Id, cancellationToken);
 
             if (existingAsset is null)
             {
                 return Result.Failure(AssetErrors.NotFound(request.Id));
             }
 
-            await userRepository.DeleteAsync(existingAsset!);
+            await assetRepository.DeleteAsync(existingAsset!);
+            //event update change table position asset, order desc + select first
+
             await unitOfWork.SaveChangesAsync(cancellationToken);
 
             return Result.Success();

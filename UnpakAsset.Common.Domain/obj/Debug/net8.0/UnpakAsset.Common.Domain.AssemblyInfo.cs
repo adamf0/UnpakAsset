@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UnpakAsset.Common.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+08d45cace5b7cb4217694443d15da115e8147510")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ac10cb300f3de552bd4b329a093f287a67a8e45d")]
 [assembly: System.Reflection.AssemblyProductAttribute("UnpakAsset.Common.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UnpakAsset.Common.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

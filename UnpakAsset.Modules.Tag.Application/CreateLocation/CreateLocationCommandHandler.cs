@@ -6,7 +6,7 @@ using UnpakAsset.Modules.Tag.Domain.Location;
 namespace UnpakAsset.Modules.Tag.Application.CreateLocation
 {
     internal sealed class CreateLocationCommandHandler(
-    ILocationRepository userRepository,
+    ILocationRepository locationRepository,
     IUnitOfWork unitOfWork)
     : ICommandHandler<CreateLocationCommand, Guid>
     {
@@ -21,7 +21,7 @@ namespace UnpakAsset.Modules.Tag.Application.CreateLocation
                 return Result.Failure<Guid>(result.Error);
             }
 
-            userRepository.Insert(result.Value);
+            locationRepository.Insert(result.Value);
 
             await unitOfWork.SaveChangesAsync(cancellationToken);
 

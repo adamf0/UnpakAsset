@@ -1861,6 +1861,146 @@
           "Microsoft.AspNetCore.App"
         ]
       },
+      "UnpakAsset.Modules.AssignAsset.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Dapper": "2.1.35",
+          "MediatR": "12.4.1",
+          "UnpakAsset.Common.Application": "1.0.0",
+          "UnpakAsset.Common.Domain": "1.0.0",
+          "UnpakAsset.Modules.AssignAsset.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/UnpakAsset.Modules.AssignAsset.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UnpakAsset.Modules.AssignAsset.Application.dll": {}
+        }
+      },
+      "UnpakAsset.Modules.AssignAsset.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "UnpakAsset.Common.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/UnpakAsset.Modules.AssignAsset.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UnpakAsset.Modules.AssignAsset.Domain.dll": {}
+        }
+      },
+      "UnpakAsset.Modules.AssignAsset.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "8.0.0",
+          "MySql.EntityFrameworkCore": "8.0.0",
+          "UnpakAsset.Common.Application": "1.0.0",
+          "UnpakAsset.Common.Infrastructure": "1.0.0",
+          "UnpakAsset.Modules.AssignAsset.Application": "1.0.0",
+          "UnpakAsset.Modules.AssignAsset.Domain": "1.0.0",
+          "UnpakAsset.Modules.AssignAsset.Presentation": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/UnpakAsset.Modules.AssignAsset.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UnpakAsset.Modules.AssignAsset.Infrastructure.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "UnpakAsset.Modules.AssignAsset.Presentation/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "UnpakAsset.Common.Domain": "1.0.0",
+          "UnpakAsset.Common.Presentation": "1.0.0",
+          "UnpakAsset.Modules.AssignAsset.Application": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/UnpakAsset.Modules.AssignAsset.Presentation.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UnpakAsset.Modules.AssignAsset.Presentation.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "UnpakAsset.Modules.MoveAsset.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Dapper": "2.1.35",
+          "MediatR": "12.4.1",
+          "UnpakAsset.Common.Application": "1.0.0",
+          "UnpakAsset.Common.Domain": "1.0.0",
+          "UnpakAsset.Modules.MoveAsset.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/UnpakAsset.Modules.MoveAsset.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UnpakAsset.Modules.MoveAsset.Application.dll": {}
+        }
+      },
+      "UnpakAsset.Modules.MoveAsset.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "UnpakAsset.Common.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/UnpakAsset.Modules.MoveAsset.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UnpakAsset.Modules.MoveAsset.Domain.dll": {}
+        }
+      },
+      "UnpakAsset.Modules.MoveAsset.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "8.0.0",
+          "MySql.EntityFrameworkCore": "8.0.0",
+          "UnpakAsset.Common.Application": "1.0.0",
+          "UnpakAsset.Common.Infrastructure": "1.0.0",
+          "UnpakAsset.Modules.MoveAsset.Application": "1.0.0",
+          "UnpakAsset.Modules.MoveAsset.Domain": "1.0.0",
+          "UnpakAsset.Modules.MoveAsset.Presentation": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/UnpakAsset.Modules.MoveAsset.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UnpakAsset.Modules.MoveAsset.Infrastructure.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "UnpakAsset.Modules.MoveAsset.Presentation/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "UnpakAsset.Common.Domain": "1.0.0",
+          "UnpakAsset.Common.Presentation": "1.0.0",
+          "UnpakAsset.Modules.MoveAsset.Application": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/UnpakAsset.Modules.MoveAsset.Presentation.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UnpakAsset.Modules.MoveAsset.Presentation.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "UnpakAsset.Modules.Tag.Application/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -5269,6 +5409,46 @@
       "path": "../UnpakAsset.Modules.Asset.Presentation/UnpakAsset.Modules.Asset.Presentation.csproj",
       "msbuildProject": "../UnpakAsset.Modules.Asset.Presentation/UnpakAsset.Modules.Asset.Presentation.csproj"
     },
+    "UnpakAsset.Modules.AssignAsset.Application/1.0.0": {
+      "type": "project",
+      "path": "../UnpakAsset.Modules.AssignAsset.Application/UnpakAsset.Modules.AssignAsset.Application.csproj",
+      "msbuildProject": "../UnpakAsset.Modules.AssignAsset.Application/UnpakAsset.Modules.AssignAsset.Application.csproj"
+    },
+    "UnpakAsset.Modules.AssignAsset.Domain/1.0.0": {
+      "type": "project",
+      "path": "../UnpakAsset.Modules.AssignAsset.Domain/UnpakAsset.Modules.AssignAsset.Domain.csproj",
+      "msbuildProject": "../UnpakAsset.Modules.AssignAsset.Domain/UnpakAsset.Modules.AssignAsset.Domain.csproj"
+    },
+    "UnpakAsset.Modules.AssignAsset.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../UnpakAsset.Modules.AssignAsset.Infrastructure/UnpakAsset.Modules.AssignAsset.Infrastructure.csproj",
+      "msbuildProject": "../UnpakAsset.Modules.AssignAsset.Infrastructure/UnpakAsset.Modules.AssignAsset.Infrastructure.csproj"
+    },
+    "UnpakAsset.Modules.AssignAsset.Presentation/1.0.0": {
+      "type": "project",
+      "path": "../UnpakAsset.Modules.AssignAsset.Presentation/UnpakAsset.Modules.AssignAsset.Presentation.csproj",
+      "msbuildProject": "../UnpakAsset.Modules.AssignAsset.Presentation/UnpakAsset.Modules.AssignAsset.Presentation.csproj"
+    },
+    "UnpakAsset.Modules.MoveAsset.Application/1.0.0": {
+      "type": "project",
+      "path": "../UnpakAsset.Modules.MoveAsset.Application/UnpakAsset.Modules.MoveAsset.Application.csproj",
+      "msbuildProject": "../UnpakAsset.Modules.MoveAsset.Application/UnpakAsset.Modules.MoveAsset.Application.csproj"
+    },
+    "UnpakAsset.Modules.MoveAsset.Domain/1.0.0": {
+      "type": "project",
+      "path": "../UnpakAsset.Modules.MoveAsset.Domain/UnpakAsset.Modules.MoveAsset.Domain.csproj",
+      "msbuildProject": "../UnpakAsset.Modules.MoveAsset.Domain/UnpakAsset.Modules.MoveAsset.Domain.csproj"
+    },
+    "UnpakAsset.Modules.MoveAsset.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../UnpakAsset.Modules.MoveAsset.Infrastructure/UnpakAsset.Modules.MoveAsset.Infrastructure.csproj",
+      "msbuildProject": "../UnpakAsset.Modules.MoveAsset.Infrastructure/UnpakAsset.Modules.MoveAsset.Infrastructure.csproj"
+    },
+    "UnpakAsset.Modules.MoveAsset.Presentation/1.0.0": {
+      "type": "project",
+      "path": "../UnpakAsset.Modules.MoveAsset.Presentation/UnpakAsset.Modules.MoveAsset.Presentation.csproj",
+      "msbuildProject": "../UnpakAsset.Modules.MoveAsset.Presentation/UnpakAsset.Modules.MoveAsset.Presentation.csproj"
+    },
     "UnpakAsset.Modules.Tag.Application/1.0.0": {
       "type": "project",
       "path": "../UnpakAsset.Modules.Tag.Application/UnpakAsset.Modules.Tag.Application.csproj",
@@ -5304,6 +5484,10 @@
       "UnpakAsset.Common.Infrastructure >= 1.0.0",
       "UnpakAsset.Modules.Asset.Application >= 1.0.0",
       "UnpakAsset.Modules.Asset.Infrastructure >= 1.0.0",
+      "UnpakAsset.Modules.AssignAsset.Application >= 1.0.0",
+      "UnpakAsset.Modules.AssignAsset.Infrastructure >= 1.0.0",
+      "UnpakAsset.Modules.MoveAsset.Application >= 1.0.0",
+      "UnpakAsset.Modules.MoveAsset.Infrastructure >= 1.0.0",
       "UnpakAsset.Modules.Tag.Application >= 1.0.0",
       "UnpakAsset.Modules.Tag.Infrastructure >= 1.0.0"
     ]
@@ -5347,6 +5531,18 @@
             },
             "C:\\dev_net\\UnpakAsset\\UnpakAsset.Modules.Asset.Infrastructure\\UnpakAsset.Modules.Asset.Infrastructure.csproj": {
               "projectPath": "C:\\dev_net\\UnpakAsset\\UnpakAsset.Modules.Asset.Infrastructure\\UnpakAsset.Modules.Asset.Infrastructure.csproj"
+            },
+            "C:\\dev_net\\UnpakAsset\\UnpakAsset.Modules.AssignAsset.Application\\UnpakAsset.Modules.AssignAsset.Application.csproj": {
+              "projectPath": "C:\\dev_net\\UnpakAsset\\UnpakAsset.Modules.AssignAsset.Application\\UnpakAsset.Modules.AssignAsset.Application.csproj"
+            },
+            "C:\\dev_net\\UnpakAsset\\UnpakAsset.Modules.AssignAsset.Infrastructure\\UnpakAsset.Modules.AssignAsset.Infrastructure.csproj": {
+              "projectPath": "C:\\dev_net\\UnpakAsset\\UnpakAsset.Modules.AssignAsset.Infrastructure\\UnpakAsset.Modules.AssignAsset.Infrastructure.csproj"
+            },
+            "C:\\dev_net\\UnpakAsset\\UnpakAsset.Modules.MoveAsset.Application\\UnpakAsset.Modules.MoveAsset.Application.csproj": {
+              "projectPath": "C:\\dev_net\\UnpakAsset\\UnpakAsset.Modules.MoveAsset.Application\\UnpakAsset.Modules.MoveAsset.Application.csproj"
+            },
+            "C:\\dev_net\\UnpakAsset\\UnpakAsset.Modules.MoveAsset.Infrastructure\\UnpakAsset.Modules.MoveAsset.Infrastructure.csproj": {
+              "projectPath": "C:\\dev_net\\UnpakAsset\\UnpakAsset.Modules.MoveAsset.Infrastructure\\UnpakAsset.Modules.MoveAsset.Infrastructure.csproj"
             },
             "C:\\dev_net\\UnpakAsset\\UnpakAsset.Modules.Tag.Application\\UnpakAsset.Modules.Tag.Application.csproj": {
               "projectPath": "C:\\dev_net\\UnpakAsset\\UnpakAsset.Modules.Tag.Application\\UnpakAsset.Modules.Tag.Application.csproj"

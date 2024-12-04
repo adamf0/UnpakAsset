@@ -1,5 +1,4 @@
 ﻿using Microsoft.AspNetCore.Routing;
-//using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.EntityFrameworkCore;
@@ -34,27 +33,10 @@ namespace UnpakTag.Modules.Tag.Infrastructure
             return services;
         }
 
-        /*public static IServiceCollection AddUserModule(
-            this IServiceCollection services,
-            IConfiguration configuration)
-        {
-            services.AddMediatR(config =>
-            {
-                config.RegisterServicesFromAssembly(Application.AssemblyReference.Assembly);
-            });
-
-            //services.AddValidatorsFromAssembly(Application.AssemblyReference.Assembly, includeInternalTypes: true);
-
-            services.AddInfrastructure(configuration);
-
-            return services;
-        }*/
-
         private static void AddInfrastructure(this IServiceCollection services, IConfiguration configuration)
         {
             string databaseConnectionString = configuration.GetConnectionString("Database")!;
 
-            //services.AddScoped<IDbConnectionFactory, DbConnectionFactory>();
             services.AddScoped<IDbConnectionFactory>(_ => new DbConnectionFactory(databaseConnectionString));
 
             services.AddDbContext<TagDbContext>(optionsBuilder => optionsBuilder.UseMySQL(databaseConnectionString));

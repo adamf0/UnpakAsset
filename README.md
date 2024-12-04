@@ -8,6 +8,10 @@ ini merupakan prototype aplikasi siasset terbaru menggunakan teknologi <b>NET Co
 4. penerapan clean architecture = agar rapih, cqrs = pemisahan database dalam write & read (CDC sudah ada  adaptor uji coba bisa tinggal implementasi ke mongo/redis) dan event source = untuk melihat perubahan event yg terjadi
 5. loose coupling dan hight cohesion yang lebih nyata.
 
+### Review Teknologi
+1. strong read database for eventsource -> eventstore, cockroachdb
+2. read & write document -> mongodb, redis
+
 ### Task
 1. modul asset
 2. modul group

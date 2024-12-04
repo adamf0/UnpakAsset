@@ -11,7 +11,9 @@ namespace UnpakAsset.Modules.Asset.Infrastructure.Database
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            //modelBuilder.Entity<Domain.Asset.Asset>().ToTable(Schemas.Asset);
+            modelBuilder.Entity<Domain.Asset.Asset>().ToTable(Schemas.Asset);
+            modelBuilder.ApplyConfiguration(new AssetConfiguration());
+
             modelBuilder.Entity<Domain.Asset.Asset>(entity =>
             {
                 var guidConverter = new ValueConverter<Guid, string>(
@@ -57,7 +59,6 @@ namespace UnpakAsset.Modules.Asset.Infrastructure.Database
                 entity.Property(e => e.TotalUnit)
                       .HasColumnName("total_unit");
             });
-            modelBuilder.ApplyConfiguration(new AssetConfiguration());
         }
     }
 

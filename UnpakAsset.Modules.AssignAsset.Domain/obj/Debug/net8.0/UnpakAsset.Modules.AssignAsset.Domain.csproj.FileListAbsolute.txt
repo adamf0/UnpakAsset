@@ -1,0 +1,16 @@
+C:\dev_net\UnpakAsset\UnpakAsset.Modules.AssignAsset.Domain\bin\Debug\net8.0\UnpakAsset.Modules.AssignAsset.Domain.deps.json
+C:\dev_net\UnpakAsset\UnpakAsset.Modules.AssignAsset.Domain\bin\Debug\net8.0\UnpakAsset.Modules.AssignAsset.Domain.dll
+C:\dev_net\UnpakAsset\UnpakAsset.Modules.AssignAsset.Domain\bin\Debug\net8.0\UnpakAsset.Modules.AssignAsset.Domain.pdb
+C:\dev_net\UnpakAsset\UnpakAsset.Modules.AssignAsset.Domain\bin\Debug\net8.0\UnpakAsset.Common.Domain.dll
+C:\dev_net\UnpakAsset\UnpakAsset.Modules.AssignAsset.Domain\bin\Debug\net8.0\UnpakAsset.Common.Domain.pdb
+C:\dev_net\UnpakAsset\UnpakAsset.Modules.AssignAsset.Domain\obj\Debug\net8.0\UnpakAsset.Modules.AssignAsset.Domain.csproj.AssemblyReference.cache
+C:\dev_net\UnpakAsset\UnpakAsset.Modules.AssignAsset.Domain\obj\Debug\net8.0\UnpakAsset.Modules.AssignAsset.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev_net\UnpakAsset\UnpakAsset.Modules.AssignAsset.Domain\obj\Debug\net8.0\UnpakAsset.Modules.AssignAsset.Domain.AssemblyInfoInputs.cache
+C:\dev_net\UnpakAsset\UnpakAsset.Modules.AssignAsset.Domain\obj\Debug\net8.0\UnpakAsset.Modules.AssignAsset.Domain.AssemblyInfo.cs
+C:\dev_net\UnpakAsset\UnpakAsset.Modules.AssignAsset.Domain\obj\Debug\net8.0\UnpakAsset.Modules.AssignAsset.Domain.csproj.CoreCompileInputs.cache
+C:\dev_net\UnpakAsset\UnpakAsset.Modules.AssignAsset.Domain\obj\Debug\net8.0\UnpakAsset.Modules.AssignAsset.Domain.sourcelink.json
+C:\dev_net\UnpakAsset\UnpakAsset.Modules.AssignAsset.Domain\obj\Debug\net8.0\UnpakAss.3B258A8F.Up2Date
+C:\dev_net\UnpakAsset\UnpakAsset.Modules.AssignAsset.Domain\obj\Debug\net8.0\UnpakAsset.Modules.AssignAsset.Domain.dll
+C:\dev_net\UnpakAsset\UnpakAsset.Modules.AssignAsset.Domain\obj\Debug\net8.0\refint\UnpakAsset.Modules.AssignAsset.Domain.dll
+C:\dev_net\UnpakAsset\UnpakAsset.Modules.AssignAsset.Domain\obj\Debug\net8.0\UnpakAsset.Modules.AssignAsset.Domain.pdb
+C:\dev_net\UnpakAsset\UnpakAsset.Modules.AssignAsset.Domain\obj\Debug\net8.0\ref\UnpakAsset.Modules.AssignAsset.Domain.dll

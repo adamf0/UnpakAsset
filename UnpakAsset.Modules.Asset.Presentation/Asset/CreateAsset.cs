@@ -29,7 +29,7 @@ namespace UnpakAsset.Modules.Asset.Presentation.Asset
                 );
 
                 return result.Match(Results.Ok, ApiResults.Problem);
-            });
+            }).WithTags("asset.create");
         }
 
         internal sealed class CreateAssetRequest

@@ -18,7 +18,7 @@ namespace UnpakAsset.Modules.Asset.Presentation.Asset
                 Result<List<AssetResponse>> result = await sender.Send(new GetAllAssetQuery());
 
                 return result.Match(Results.Ok, ApiResults.Problem);
-            });
+            }).WithTags("asset.all");
         }
     }
 }
