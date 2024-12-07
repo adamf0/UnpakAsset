@@ -17,7 +17,7 @@ namespace UnpakAsset.Modules.Tag.Presentation.Location
                 Result<LocationResponse> result = await sender.Send(new GetLocationQuery(id));
 
                 return result.Match(Results.Ok, ApiResults.Problem);
-            });
+            }).WithTags(Tags.Location);
         }
     }
 }

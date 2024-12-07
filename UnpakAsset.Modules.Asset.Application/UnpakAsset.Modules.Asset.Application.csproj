@@ -17,8 +17,4 @@
 	  <ProjectReference Include="..\UnpakAsset.Modules.Asset.Domain\UnpakAsset.Modules.Asset.Domain.csproj" />
 	</ItemGroup>
 
-	<ItemGroup>
-	  <Folder Include="Abstractions\Data\" />
-	</ItemGroup>
-
 </Project>

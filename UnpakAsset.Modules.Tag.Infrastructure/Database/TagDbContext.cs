@@ -1,7 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using UnpakAsset.Common.Application.Abstractions.Data;
-using UnpakAsset.Modules.Tag.Infrastructure.Group;
+using UnpakAsset.Modules.Tag.Application.Abstractions.Data;
 
 namespace UnpakAsset.Modules.Tag.Infrastructure.Database
 {
@@ -26,12 +25,11 @@ namespace UnpakAsset.Modules.Tag.Infrastructure.Database
                 entity.Property(e => e.Id)
                       .HasColumnName("id")
                       .HasColumnType("VARCHAR(36)");
-                      //.HasConversion(guidConverter);
+                //.HasConversion(guidConverter);
 
                 entity.Property(e => e.Nama)
                       .HasColumnName("nama");
             });
-            modelBuilder.ApplyConfiguration(new TagConfiguration());
 
             modelBuilder.Entity<Domain.Location.Location>(entity =>
             {
@@ -51,6 +49,8 @@ namespace UnpakAsset.Modules.Tag.Infrastructure.Database
                 entity.Property(e => e.Nama)
                       .HasColumnName("nama");
             });
+
+            modelBuilder.ApplyConfiguration(new TagConfiguration());
         }
     }
 

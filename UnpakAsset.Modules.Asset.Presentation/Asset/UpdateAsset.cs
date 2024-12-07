@@ -30,7 +30,7 @@ namespace UnpakAsset.Modules.Asset.Presentation.Asset
                 );
 
                 return result.Match(() => Results.Ok(), ApiResults.Problem);
-            }).WithTags("asset.update");
+            }).WithTags(Tags.Asset);
         }
 
         internal sealed class UpdateAssetRequest

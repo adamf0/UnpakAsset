@@ -25,7 +25,7 @@ namespace UnpakAsset.Modules.AssignAsset.Presentation.AssignAsset
                 );
 
                 return result.Match(Results.Ok, ApiResults.Problem);
-            });
+            }).WithTags(Tags.AssignAsset);
         }
 
         internal sealed class CreateAssignAssetRequest

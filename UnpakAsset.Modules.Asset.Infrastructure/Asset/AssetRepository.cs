@@ -20,7 +20,6 @@ namespace UnpakAsset.Modules.Asset.Infrastructure.Asset
         public void Insert(Domain.Asset.Asset location)
         {
             context.Asset.Add(location);
-            context.SaveChanges();
         }
     }
 }

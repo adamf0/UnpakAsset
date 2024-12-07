@@ -1,4 +1,4 @@
-﻿using UnpakAsset.Common.Application.Abstractions.Data;
+﻿using UnpakAsset.Modules.MoveAsset.Application.Abstractions.Data;
 using UnpakAsset.Common.Application.Messaging;
 using UnpakAsset.Common.Domain;
 using UnpakAsset.Modules.MoveAsset.Domain.MoveAsset;

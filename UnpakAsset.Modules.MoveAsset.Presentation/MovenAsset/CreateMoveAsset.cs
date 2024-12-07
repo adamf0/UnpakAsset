@@ -30,7 +30,7 @@ namespace UnpakAsset.Modules.MoveAsset.Presentation.MoveAsset
                 );
 
                 return result.Match(Results.Ok, ApiResults.Problem);
-            });
+            }).WithTags(Tags.MoveAsset);
         }
 
         internal sealed class CreateMoveAssetRequest

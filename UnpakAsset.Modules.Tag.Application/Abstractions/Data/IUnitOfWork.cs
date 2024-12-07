@@ -1,4 +1,4 @@
-﻿namespace UnpakAsset.Common.Application.Abstractions.Data
+﻿namespace UnpakAsset.Modules.Tag.Application.Abstractions.Data
 {
     public interface IUnitOfWork
     {

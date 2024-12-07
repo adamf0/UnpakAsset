@@ -2,7 +2,7 @@
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.EntityFrameworkCore;
-using UnpakAsset.Common.Application.Abstractions.Data;
+using UnpakAsset.Modules.Tag.Application.Abstractions.Data;
 using UnpakAsset.Common.Infrastructure.Data;
 using UnpakAsset.Common.Application.Data;
 using UnpakAsset.Modules.Tag.Infrastructure.Database;

@@ -1,6 +1,6 @@
 ﻿using UnpakAsset.Common.Application.Messaging;
 using UnpakAsset.Common.Domain;
-using UnpakAsset.Common.Application.Abstractions.Data;
+using UnpakAsset.Modules.Asset.Application.Abstractions.Data;
 using UnpakAsset.Modules.Asset.Domain.Asset;
 
 namespace UnpakAsset.Modules.Asset.Application.UpdateAsset

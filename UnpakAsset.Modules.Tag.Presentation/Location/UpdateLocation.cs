@@ -21,7 +21,7 @@ namespace UnpakAsset.Modules.Tag.Presentation.Location
                 );
 
                 return result.Match(() => Results.Ok(), ApiResults.Problem);
-            });
+            }).WithTags(Tags.Location);
         }
 
         internal sealed class UpdateLocationRequest

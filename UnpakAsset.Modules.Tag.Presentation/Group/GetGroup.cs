@@ -17,7 +17,7 @@ namespace UnpakAsset.Modules.Tag.Presentation.Group
                 Result<GroupResponse> result = await sender.Send(new GetGroupQuery(id));
 
                 return result.Match(Results.Ok, ApiResults.Problem);
-            });
+            }).WithTags(Tags.Group);
         }
     }
 

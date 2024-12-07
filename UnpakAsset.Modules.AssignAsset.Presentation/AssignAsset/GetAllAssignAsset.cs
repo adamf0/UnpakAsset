@@ -17,7 +17,7 @@ namespace UnpakAsset.Modules.AssignAsset.Presentation.AssignAsset
                 Result<List<AssignAssetResponse>> result = await sender.Send(new GetAllAssignAssetQuery());
 
                 return result.Match(Results.Ok, ApiResults.Problem);
-            });
+            }).WithTags(Tags.AssignAsset);
         }
     }
 }

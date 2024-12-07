@@ -18,7 +18,7 @@ namespace UnpakAsset.Modules.MoveAsset.Presentation.MoveAsset
                 Result<MoveAssetResponse> result = await sender.Send(new GetMoveAssetQuery(id));
 
                 return result.Match(Results.Ok, ApiResults.Problem);
-            });
+            }).WithTags(Tags.MoveAsset);
         }
     }
 

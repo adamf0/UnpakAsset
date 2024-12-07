@@ -11,20 +11,20 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Host.UseSerilog((context, loggerConfig) => loggerConfig.ReadFrom.Configuration(context.Configuration));
 builder.Services.AddExceptionHandler<GlobalExceptionHandler>();
 builder.Services.AddProblemDetails();
-builder.Services.AddControllers();
+//builder.Services.AddControllers();
 
 //builder.Configuration.AddModuleConfiguration(["Asset"]);
 builder.Services.AddApplication([
     UnpakAsset.Modules.Asset.Application.AssemblyReference.Assembly,
-    /*UnpakAsset.Modules.MoveAsset.Application.AssemblyReference.Assembly,
-    UnpakAsset.Modules.AssignAsset.Application.AssemblyReference.Assembly,*/
+    UnpakAsset.Modules.MoveAsset.Application.AssemblyReference.Assembly,
+    UnpakAsset.Modules.AssignAsset.Application.AssemblyReference.Assembly,
     UnpakAsset.Modules.Tag.Application.AssemblyReference.Assembly,
 ]);
 
 builder.Services.AddInfrastructure(builder.Configuration.GetConnectionString("Database")!);
 builder.Services.AddAssetModule(builder.Configuration);
-/*builder.Services.AddMoveAssetModule(builder.Configuration);
-builder.Services.AddAssignAssetModule(builder.Configuration);*/
+builder.Services.AddMoveAssetModule(builder.Configuration);
+builder.Services.AddAssignAssetModule(builder.Configuration);
 builder.Services.AddTagModule(builder.Configuration);
 
 builder.Services.AddEndpointsApiExplorer();
@@ -34,8 +34,8 @@ builder.Services.AddAuthorization();
 
 var app = builder.Build();
 AssetModule.MapEndpoints(app);
-/*MoveAssetModule.MapEndpoints(app);
-AssignAssetModule.MapEndpoints(app);*/
+MoveAssetModule.MapEndpoints(app);
+AssignAssetModule.MapEndpoints(app);
 TagModule.MapEndpoints(app);
 
 if (app.Environment.IsDevelopment())

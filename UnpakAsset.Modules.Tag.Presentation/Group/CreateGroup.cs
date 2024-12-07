@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Routing;
 using UnpakAsset.Common.Domain;
 using UnpakAsset.Common.Presentation.ApiResults;
 using UnpakAsset.Modules.Tag.Application.CreateGroup;
+using UnpakAsset.Modules.Tag.Presentation;
 
 namespace UnpakTag.Modules.Tag.Presentation.Group
 {
@@ -20,7 +21,7 @@ namespace UnpakTag.Modules.Tag.Presentation.Group
                 );
 
                 return result.Match(Results.Ok, ApiResults.Problem);
-            });
+            }).WithTags(Tags.Group);
         }
 
         internal sealed class CreateGroupRequest

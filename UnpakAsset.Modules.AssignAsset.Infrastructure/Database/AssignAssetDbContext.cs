@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using UnpakAsset.Common.Application.Abstractions.Data;
+using UnpakAsset.Modules.AssignAsset.Application.Abstractions.Data;
 using UnpakAsset.Modules.AssignAsset.Infrastructure.AssignAsset;
 
 namespace UnpakAsset.Modules.AssignAsset.Infrastructure.Database

@@ -21,7 +21,7 @@ namespace UnpakAsset.Modules.Tag.Presentation.Group
                 );
 
                 return result.Match(() => Results.Ok(), ApiResults.Problem);
-            });
+            }).WithTags(Tags.Group);
         }
 
         internal sealed class UpdateGroupRequest

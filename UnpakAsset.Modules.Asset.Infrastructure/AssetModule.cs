@@ -8,7 +8,7 @@ using UnpakAsset.Modules.Asset.Presentation.Asset;
 using UnpakAsset.Common.Application.Data;
 using UnpakAsset.Common.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
-using UnpakAsset.Common.Application.Abstractions.Data;
+using UnpakAsset.Modules.Asset.Application.Abstractions.Data;
 
 namespace UnpakAsset.Modules.Asset.Infrastructure
 {
