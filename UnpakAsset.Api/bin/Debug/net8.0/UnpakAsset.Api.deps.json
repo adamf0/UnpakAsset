@@ -26,6 +26,8 @@
           "UnpakAsset.Modules.MoveAsset.Infrastructure": "1.0.0",
           "UnpakAsset.Modules.PhysicalAsset.Application": "1.0.0",
           "UnpakAsset.Modules.PhysicalAsset.Infrastructure": "1.0.0",
+          "UnpakAsset.Modules.RepairAsset.Application": "1.0.0",
+          "UnpakAsset.Modules.RepairAsset.Infrastructure": "1.0.0",
           "UnpakAsset.Modules.Tag.Application": "1.0.0",
           "UnpakAsset.Modules.Tag.Infrastructure": "1.0.0"
         },
@@ -1238,6 +1240,50 @@
           "UnpakAsset.Modules.PhysicalAsset.Presentation.dll": {}
         }
       },
+      "UnpakAsset.Modules.RepairAsset.Application/1.0.0": {
+        "dependencies": {
+          "Dapper": "2.1.35",
+          "MediatR": "12.4.1",
+          "UnpakAsset.Common.Application": "1.0.0",
+          "UnpakAsset.Common.Domain": "1.0.0",
+          "UnpakAsset.Modules.RepairAsset.Domain": "1.0.0"
+        },
+        "runtime": {
+          "UnpakAsset.Modules.RepairAsset.Application.dll": {}
+        }
+      },
+      "UnpakAsset.Modules.RepairAsset.Domain/1.0.0": {
+        "dependencies": {
+          "UnpakAsset.Common.Domain": "1.0.0"
+        },
+        "runtime": {
+          "UnpakAsset.Modules.RepairAsset.Domain.dll": {}
+        }
+      },
+      "UnpakAsset.Modules.RepairAsset.Infrastructure/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "8.0.0",
+          "MySql.EntityFrameworkCore": "8.0.0",
+          "UnpakAsset.Common.Application": "1.0.0",
+          "UnpakAsset.Common.Infrastructure": "1.0.0",
+          "UnpakAsset.Modules.RepairAsset.Application": "1.0.0",
+          "UnpakAsset.Modules.RepairAsset.Domain": "1.0.0",
+          "UnpakAsset.Modules.RepairAsset.Presentation": "1.0.0"
+        },
+        "runtime": {
+          "UnpakAsset.Modules.RepairAsset.Infrastructure.dll": {}
+        }
+      },
+      "UnpakAsset.Modules.RepairAsset.Presentation/1.0.0": {
+        "dependencies": {
+          "UnpakAsset.Common.Domain": "1.0.0",
+          "UnpakAsset.Common.Presentation": "1.0.0",
+          "UnpakAsset.Modules.RepairAsset.Application": "1.0.0"
+        },
+        "runtime": {
+          "UnpakAsset.Modules.RepairAsset.Presentation.dll": {}
+        }
+      },
       "UnpakAsset.Modules.Tag.Application/1.0.0": {
         "dependencies": {
           "Dapper": "2.1.35",
@@ -2037,6 +2083,26 @@
       "sha512": ""
     },
     "UnpakAsset.Modules.PhysicalAsset.Presentation/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "UnpakAsset.Modules.RepairAsset.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "UnpakAsset.Modules.RepairAsset.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "UnpakAsset.Modules.RepairAsset.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "UnpakAsset.Modules.RepairAsset.Presentation/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

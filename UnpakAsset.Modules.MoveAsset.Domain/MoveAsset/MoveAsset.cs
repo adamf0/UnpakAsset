@@ -66,11 +66,19 @@ namespace UnpakAsset.Modules.MoveAsset.Domain.MoveAsset
                 }
 
                 if (
-                    (grup == null || grup.Length == 0) &&
-                    (lokasi == null || lokasi.Length == 0)
+                    string.IsNullOrWhiteSpace(grup) &&
+                    string.IsNullOrWhiteSpace(lokasi)
                 )
                 {
                     return Result.Failure<MoveAsset>(MoveAssetErrors.GroupAndLocationNotFound);
+                }
+
+                if (
+                    !string.IsNullOrWhiteSpace(grup) &&
+                    !string.IsNullOrWhiteSpace(lokasi)
+                )
+                {
+                    return Result.Failure<MoveAsset>(MoveAssetErrors.GroupAndLocationInvalidCategory);
                 }
 
                 if (

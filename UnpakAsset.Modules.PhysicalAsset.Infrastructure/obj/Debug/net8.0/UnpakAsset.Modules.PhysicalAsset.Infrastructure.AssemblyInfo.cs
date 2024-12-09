@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UnpakAsset.Modules.PhysicalAsset.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+da55a2a1c2352d407dad17f6c4ad2bef572b2fa7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+633e3e0d6ba1f4e7235a46bfc9d9ba9c16da64b6")]
 [assembly: System.Reflection.AssemblyProductAttribute("UnpakAsset.Modules.PhysicalAsset.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UnpakAsset.Modules.PhysicalAsset.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

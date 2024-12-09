@@ -69,8 +69,8 @@ namespace UnpakAsset.Modules.PhysicalAsset.Domain.PhysicalAsset
 
 
             if (
-                    !string.IsNullOrWhiteSpace(grup) &&
-                    !string.IsNullOrWhiteSpace(lokasi)
+                    string.IsNullOrWhiteSpace(grup) &&
+                    string.IsNullOrWhiteSpace(lokasi)
                 )
             {
                 return Result.Failure<PhysicalAsset>(PhysicalAssetErrors.GroupAndLocationNotFound);
