@@ -1,3 +1,9 @@
+C:\dev_net\UnpakAsset\UnpakAsset.Modules.MoveAsset.Infrastructure\obj\Debug\net8.0\UnpakAsset.Modules.MoveAsset.Infrastructure.csproj.AssemblyReference.cache
+C:\dev_net\UnpakAsset\UnpakAsset.Modules.MoveAsset.Infrastructure\obj\Debug\net8.0\UnpakAsset.Modules.MoveAsset.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev_net\UnpakAsset\UnpakAsset.Modules.MoveAsset.Infrastructure\obj\Debug\net8.0\UnpakAsset.Modules.MoveAsset.Infrastructure.AssemblyInfoInputs.cache
+C:\dev_net\UnpakAsset\UnpakAsset.Modules.MoveAsset.Infrastructure\obj\Debug\net8.0\UnpakAsset.Modules.MoveAsset.Infrastructure.AssemblyInfo.cs
+C:\dev_net\UnpakAsset\UnpakAsset.Modules.MoveAsset.Infrastructure\obj\Debug\net8.0\UnpakAsset.Modules.MoveAsset.Infrastructure.csproj.CoreCompileInputs.cache
+C:\dev_net\UnpakAsset\UnpakAsset.Modules.MoveAsset.Infrastructure\obj\Debug\net8.0\UnpakAsset.Modules.MoveAsset.Infrastructure.sourcelink.json
 C:\dev_net\UnpakAsset\UnpakAsset.Modules.MoveAsset.Infrastructure\bin\Debug\net8.0\UnpakAsset.Modules.MoveAsset.Infrastructure.deps.json
 C:\dev_net\UnpakAsset\UnpakAsset.Modules.MoveAsset.Infrastructure\bin\Debug\net8.0\UnpakAsset.Modules.MoveAsset.Infrastructure.dll
 C:\dev_net\UnpakAsset\UnpakAsset.Modules.MoveAsset.Infrastructure\bin\Debug\net8.0\UnpakAsset.Modules.MoveAsset.Infrastructure.pdb
@@ -15,12 +21,6 @@ C:\dev_net\UnpakAsset\UnpakAsset.Modules.MoveAsset.Infrastructure\bin\Debug\net8
 C:\dev_net\UnpakAsset\UnpakAsset.Modules.MoveAsset.Infrastructure\bin\Debug\net8.0\UnpakAsset.Modules.MoveAsset.Presentation.pdb
 C:\dev_net\UnpakAsset\UnpakAsset.Modules.MoveAsset.Infrastructure\bin\Debug\net8.0\UnpakAsset.Common.Domain.pdb
 C:\dev_net\UnpakAsset\UnpakAsset.Modules.MoveAsset.Infrastructure\bin\Debug\net8.0\UnpakAsset.Common.Presentation.pdb
-C:\dev_net\UnpakAsset\UnpakAsset.Modules.MoveAsset.Infrastructure\obj\Debug\net8.0\UnpakAsset.Modules.MoveAsset.Infrastructure.csproj.AssemblyReference.cache
-C:\dev_net\UnpakAsset\UnpakAsset.Modules.MoveAsset.Infrastructure\obj\Debug\net8.0\UnpakAsset.Modules.MoveAsset.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
-C:\dev_net\UnpakAsset\UnpakAsset.Modules.MoveAsset.Infrastructure\obj\Debug\net8.0\UnpakAsset.Modules.MoveAsset.Infrastructure.AssemblyInfoInputs.cache
-C:\dev_net\UnpakAsset\UnpakAsset.Modules.MoveAsset.Infrastructure\obj\Debug\net8.0\UnpakAsset.Modules.MoveAsset.Infrastructure.AssemblyInfo.cs
-C:\dev_net\UnpakAsset\UnpakAsset.Modules.MoveAsset.Infrastructure\obj\Debug\net8.0\UnpakAsset.Modules.MoveAsset.Infrastructure.csproj.CoreCompileInputs.cache
-C:\dev_net\UnpakAsset\UnpakAsset.Modules.MoveAsset.Infrastructure\obj\Debug\net8.0\UnpakAsset.Modules.MoveAsset.Infrastructure.sourcelink.json
 C:\dev_net\UnpakAsset\UnpakAsset.Modules.MoveAsset.Infrastructure\obj\Debug\net8.0\UnpakAss.C8832068.Up2Date
 C:\dev_net\UnpakAsset\UnpakAsset.Modules.MoveAsset.Infrastructure\obj\Debug\net8.0\UnpakAsset.Modules.MoveAsset.Infrastructure.dll
 C:\dev_net\UnpakAsset\UnpakAsset.Modules.MoveAsset.Infrastructure\obj\Debug\net8.0\refint\UnpakAsset.Modules.MoveAsset.Infrastructure.dll

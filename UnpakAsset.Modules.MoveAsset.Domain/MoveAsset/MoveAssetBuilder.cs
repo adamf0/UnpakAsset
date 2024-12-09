@@ -47,11 +47,27 @@ namespace UnpakAsset.Modules.MoveAsset.Domain.MoveAsset
                     }
 
                     if (
-                        (_asset.Grup == null || _asset.Grup.Length > 0) &&
-                        (_asset.Lokasi == null || _asset.Lokasi.Length > 0)
+                        (_asset.Grup != null || _asset.Grup?.Length > 0) &&
+                        (_asset.Lokasi != null || _asset.Lokasi?.Length > 0)
                     )
                     {
                         _result = Result.Failure<MoveAsset>(MoveAssetErrors.GroupAndLocationInvalidCategory);
+                    }
+
+                    if (
+                        _asset.Tipe == TypeMove.Group.ToEnumString() &&
+                        (_asset.Grup?.Length == 0)
+                    )
+                    {
+                        _result = Result.Failure<MoveAsset>(MoveAssetErrors.GroupNotFound);
+                    }
+
+                    if (
+                        _asset.Tipe == TypeMove.Location.ToEnumString() &&
+                        (_asset.Lokasi?.Length == 0)
+                    )
+                    {
+                        _result = Result.Failure<MoveAsset>(MoveAssetErrors.LocationNotFound);
                     }
 
                     if (
@@ -68,6 +84,22 @@ namespace UnpakAsset.Modules.MoveAsset.Domain.MoveAsset
                     )
                     {
                         _result = Result.Failure<MoveAsset>(MoveAssetErrors.GroupAndLocationDestinationInvalidCategory);
+                    }
+
+                    if (
+                        _asset.Tipe == TypeMove.Group.ToEnumString() &&
+                        (_asset.GrupTarget?.Length == 0)
+                    )
+                    {
+                        _result = Result.Failure<MoveAsset>(MoveAssetErrors.GroupDestinationNotFound);
+                    }
+
+                    if (
+                        _asset.Tipe == TypeMove.Location.ToEnumString() &&
+                        (_asset.LokasiTarget?.Length == 0)
+                    )
+                    {
+                        _result = Result.Failure<MoveAsset>(MoveAssetErrors.LocationDestinationNotFound);
                     }
                 }
                 else if (_asset.Tipe == TypeMove.Personal.ToEnumString() && string.IsNullOrWhiteSpace(_asset.UserTarget))

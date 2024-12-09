@@ -6,20 +6,20 @@ using UnpakAsset.Modules.MoveAsset.Domain.MoveAsset;
 namespace UnpakAsset.Modules.MoveAsset.Application.DeleteMoveAsset
 {
     internal sealed class DeleteMoveAssetCommandHandler(
-    IMoveAssetRepository assignAssetRepository,
+    IMoveAssetRepository moveAssetRepository,
     IUnitOfWork unitOfWork)
     : ICommandHandler<DeleteMoveAssetCommand>
     {
         public async Task<Result> Handle(DeleteMoveAssetCommand request, CancellationToken cancellationToken)
         {
-            Domain.MoveAsset.MoveAsset? existingMoveAsset = await assignAssetRepository.GetAsync(request.Id, cancellationToken);
+            Domain.MoveAsset.MoveAsset? existingMoveAsset = await moveAssetRepository.GetAsync(request.Id, cancellationToken);
 
             if (existingMoveAsset is null)
             {
                 return Result.Failure(MoveAssetErrors.NotFound(request.Id));
             }
 
-            await assignAssetRepository.DeleteAsync(existingMoveAsset!);
+            await moveAssetRepository.DeleteAsync(existingMoveAsset!);
             await unitOfWork.SaveChangesAsync(cancellationToken);
 
             return Result.Success();

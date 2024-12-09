@@ -10,6 +10,14 @@ namespace UnpakAsset.Modules.MoveAsset.Domain.MoveAsset
         public static Error NotFound(Guid Id) =>
             Error.NotFound("MoveAsset.NotFound", $"The event with the identifier {Id} was not found");
 
+        public static readonly Error GroupNotFound = Error.Problem(
+            "MoveAsset.GroupNotFound",
+            "Grup tidak boleh kosong");
+
+        public static readonly Error LocationNotFound = Error.Problem(
+            "MoveAsset.LocationNotFound",
+            "Lokasi tidak boleh kosong");
+
         public static readonly Error GroupAndLocationInvalidCategory = Error.Problem(
             "MoveAsset.GroupAndLocationInvalidCategory",
             "Pilih salah satu kategori antara Grup atau Lokasi");
@@ -18,6 +26,14 @@ namespace UnpakAsset.Modules.MoveAsset.Domain.MoveAsset
             "MoveAsset.GroupAndLocationNotFound",
             "Kategori antara Grup atau Lokasi tidak boleh kosong");
 
+
+        public static readonly Error GroupDestinationNotFound = Error.Problem(
+           "MoveAsset.GroupDestinationNotFound",
+           "Grup target tidak boleh kosong");
+
+        public static readonly Error LocationDestinationNotFound = Error.Problem(
+            "MoveAsset.LocationDestinationNotFound",
+            "Lokasi target tidak boleh kosong");
 
         public static readonly Error GroupAndLocationDestinationInvalidCategory = Error.Problem(
             "MoveAsset.GroupAndLocationDestinationInvalidCategory",

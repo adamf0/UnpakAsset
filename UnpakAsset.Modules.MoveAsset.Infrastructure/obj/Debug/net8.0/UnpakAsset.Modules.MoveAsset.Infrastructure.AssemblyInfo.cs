@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UnpakAsset.Modules.MoveAsset.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+02d337eadab8dccfe7654536c36751fa2770b3af")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+da55a2a1c2352d407dad17f6c4ad2bef572b2fa7")]
 [assembly: System.Reflection.AssemblyProductAttribute("UnpakAsset.Modules.MoveAsset.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UnpakAsset.Modules.MoveAsset.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

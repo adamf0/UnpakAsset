@@ -1,0 +1,16 @@
+C:\dev_net\UnpakAsset\UnpakAsset.Modules.PhysicalAsset.Domain\bin\Debug\net8.0\UnpakAsset.Modules.PhysicalAsset.Domain.deps.json
+C:\dev_net\UnpakAsset\UnpakAsset.Modules.PhysicalAsset.Domain\bin\Debug\net8.0\UnpakAsset.Modules.PhysicalAsset.Domain.dll
+C:\dev_net\UnpakAsset\UnpakAsset.Modules.PhysicalAsset.Domain\bin\Debug\net8.0\UnpakAsset.Modules.PhysicalAsset.Domain.pdb
+C:\dev_net\UnpakAsset\UnpakAsset.Modules.PhysicalAsset.Domain\bin\Debug\net8.0\UnpakAsset.Common.Domain.dll
+C:\dev_net\UnpakAsset\UnpakAsset.Modules.PhysicalAsset.Domain\bin\Debug\net8.0\UnpakAsset.Common.Domain.pdb
+C:\dev_net\UnpakAsset\UnpakAsset.Modules.PhysicalAsset.Domain\obj\Debug\net8.0\UnpakAsset.Modules.PhysicalAsset.Domain.csproj.AssemblyReference.cache
+C:\dev_net\UnpakAsset\UnpakAsset.Modules.PhysicalAsset.Domain\obj\Debug\net8.0\UnpakAsset.Modules.PhysicalAsset.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev_net\UnpakAsset\UnpakAsset.Modules.PhysicalAsset.Domain\obj\Debug\net8.0\UnpakAsset.Modules.PhysicalAsset.Domain.AssemblyInfoInputs.cache
+C:\dev_net\UnpakAsset\UnpakAsset.Modules.PhysicalAsset.Domain\obj\Debug\net8.0\UnpakAsset.Modules.PhysicalAsset.Domain.AssemblyInfo.cs
+C:\dev_net\UnpakAsset\UnpakAsset.Modules.PhysicalAsset.Domain\obj\Debug\net8.0\UnpakAsset.Modules.PhysicalAsset.Domain.csproj.CoreCompileInputs.cache
+C:\dev_net\UnpakAsset\UnpakAsset.Modules.PhysicalAsset.Domain\obj\Debug\net8.0\UnpakAsset.Modules.PhysicalAsset.Domain.sourcelink.json
+C:\dev_net\UnpakAsset\UnpakAsset.Modules.PhysicalAsset.Domain\obj\Debug\net8.0\UnpakAss.60AFD6E0.Up2Date
+C:\dev_net\UnpakAsset\UnpakAsset.Modules.PhysicalAsset.Domain\obj\Debug\net8.0\UnpakAsset.Modules.PhysicalAsset.Domain.dll
+C:\dev_net\UnpakAsset\UnpakAsset.Modules.PhysicalAsset.Domain\obj\Debug\net8.0\refint\UnpakAsset.Modules.PhysicalAsset.Domain.dll
+C:\dev_net\UnpakAsset\UnpakAsset.Modules.PhysicalAsset.Domain\obj\Debug\net8.0\UnpakAsset.Modules.PhysicalAsset.Domain.pdb
+C:\dev_net\UnpakAsset\UnpakAsset.Modules.PhysicalAsset.Domain\obj\Debug\net8.0\ref\UnpakAsset.Modules.PhysicalAsset.Domain.dll

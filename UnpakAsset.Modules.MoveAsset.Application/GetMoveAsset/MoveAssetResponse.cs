@@ -1,4 +1,4 @@
-﻿namespace UnpakAsset.Modules.AssignAsset.Application.GetMoveAsset
+﻿namespace UnpakAsset.Modules.MoveAsset.Application.GetMoveAsset
 {
     public sealed record MoveAssetResponse
     {

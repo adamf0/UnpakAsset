@@ -3,7 +3,7 @@ using System.Data.Common;
 using UnpakAsset.Common.Application.Data;
 using UnpakAsset.Common.Application.Messaging;
 using UnpakAsset.Common.Domain;
-using UnpakAsset.Modules.AssignAsset.Application.GetMoveAsset;
+using UnpakAsset.Modules.MoveAsset.Application.GetMoveAsset;
 using UnpakAsset.Modules.MoveAsset.Domain.MoveAsset;
 
 namespace UnpakAsset.Modules.MoveAsset.Application.GetMoveAsset

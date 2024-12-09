@@ -24,6 +24,8 @@
           "UnpakAsset.Modules.AssignAsset.Infrastructure": "1.0.0",
           "UnpakAsset.Modules.MoveAsset.Application": "1.0.0",
           "UnpakAsset.Modules.MoveAsset.Infrastructure": "1.0.0",
+          "UnpakAsset.Modules.PhysicalAsset.Application": "1.0.0",
+          "UnpakAsset.Modules.PhysicalAsset.Infrastructure": "1.0.0",
           "UnpakAsset.Modules.Tag.Application": "1.0.0",
           "UnpakAsset.Modules.Tag.Infrastructure": "1.0.0"
         },
@@ -1192,6 +1194,50 @@
           "UnpakAsset.Modules.MoveAsset.Presentation.dll": {}
         }
       },
+      "UnpakAsset.Modules.PhysicalAsset.Application/1.0.0": {
+        "dependencies": {
+          "Dapper": "2.1.35",
+          "MediatR": "12.4.1",
+          "UnpakAsset.Common.Application": "1.0.0",
+          "UnpakAsset.Common.Domain": "1.0.0",
+          "UnpakAsset.Modules.PhysicalAsset.Domain": "1.0.0"
+        },
+        "runtime": {
+          "UnpakAsset.Modules.PhysicalAsset.Application.dll": {}
+        }
+      },
+      "UnpakAsset.Modules.PhysicalAsset.Domain/1.0.0": {
+        "dependencies": {
+          "UnpakAsset.Common.Domain": "1.0.0"
+        },
+        "runtime": {
+          "UnpakAsset.Modules.PhysicalAsset.Domain.dll": {}
+        }
+      },
+      "UnpakAsset.Modules.PhysicalAsset.Infrastructure/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "8.0.0",
+          "MySql.EntityFrameworkCore": "8.0.0",
+          "UnpakAsset.Common.Application": "1.0.0",
+          "UnpakAsset.Common.Infrastructure": "1.0.0",
+          "UnpakAsset.Modules.PhysicalAsset.Application": "1.0.0",
+          "UnpakAsset.Modules.PhysicalAsset.Domain": "1.0.0",
+          "UnpakAsset.Modules.PhysicalAsset.Presentation": "1.0.0"
+        },
+        "runtime": {
+          "UnpakAsset.Modules.PhysicalAsset.Infrastructure.dll": {}
+        }
+      },
+      "UnpakAsset.Modules.PhysicalAsset.Presentation/1.0.0": {
+        "dependencies": {
+          "UnpakAsset.Common.Domain": "1.0.0",
+          "UnpakAsset.Common.Presentation": "1.0.0",
+          "UnpakAsset.Modules.PhysicalAsset.Application": "1.0.0"
+        },
+        "runtime": {
+          "UnpakAsset.Modules.PhysicalAsset.Presentation.dll": {}
+        }
+      },
       "UnpakAsset.Modules.Tag.Application/1.0.0": {
         "dependencies": {
           "Dapper": "2.1.35",
@@ -1971,6 +2017,26 @@
       "sha512": ""
     },
     "UnpakAsset.Modules.MoveAsset.Presentation/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "UnpakAsset.Modules.PhysicalAsset.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "UnpakAsset.Modules.PhysicalAsset.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "UnpakAsset.Modules.PhysicalAsset.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "UnpakAsset.Modules.PhysicalAsset.Presentation/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

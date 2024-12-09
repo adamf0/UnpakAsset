@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.0" />
+		<PackageReference Include="MySql.EntityFrameworkCore" Version="8.0.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<FrameworkReference Include="Microsoft.AspNetCore.App" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\UnpakAsset.Common.Application\UnpakAsset.Common.Application.csproj" />
+		<ProjectReference Include="..\UnpakAsset.Common.Infrastructure\UnpakAsset.Common.Infrastructure.csproj" />
+		<ProjectReference Include="..\UnpakAsset.Modules.PhysicalAsset.Application\UnpakAsset.Modules.PhysicalAsset.Application.csproj" />
+		<ProjectReference Include="..\UnpakAsset.Modules.PhysicalAsset.Domain\UnpakAsset.Modules.PhysicalAsset.Domain.csproj" />
+		<ProjectReference Include="..\UnpakAsset.Modules.PhysicalAsset.Presentation\UnpakAsset.Modules.PhysicalAsset.Presentation.csproj" />
+
+	</ItemGroup>
+</Project>

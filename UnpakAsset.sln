@@ -59,13 +59,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnpakAsset.Modules.AssignAs
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnpakAsset.Modules.AssignAsset.Presentation", "UnpakAsset.Modules.AssignAsset.Presentation\UnpakAsset.Modules.AssignAsset.Presentation.csproj", "{EEE79714-2B94-482D-942B-68265E1996E6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnpakAsset.Modules.MoveAsset.Application", "UnpakAsset.Modules.MoveAsset.Application\UnpakAsset.Modules.MoveAsset.Application.csproj", "{4DF4FD3A-02DA-43AD-9FE6-3AFCBBA46EBD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnpakAsset.Modules.MoveAsset.Application", "UnpakAsset.Modules.MoveAsset.Application\UnpakAsset.Modules.MoveAsset.Application.csproj", "{4DF4FD3A-02DA-43AD-9FE6-3AFCBBA46EBD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnpakAsset.Modules.MoveAsset.Domain", "UnpakAsset.Modules.MoveAsset.Domain\UnpakAsset.Modules.MoveAsset.Domain.csproj", "{7954C6EC-FE42-4BA5-868A-0BF384DC98C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnpakAsset.Modules.MoveAsset.Domain", "UnpakAsset.Modules.MoveAsset.Domain\UnpakAsset.Modules.MoveAsset.Domain.csproj", "{7954C6EC-FE42-4BA5-868A-0BF384DC98C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnpakAsset.Modules.MoveAsset.Infrastructure", "UnpakAsset.Modules.MoveAsset.Infrastructure\UnpakAsset.Modules.MoveAsset.Infrastructure.csproj", "{BB07933B-8161-4DA7-91AC-926AECDC6161}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnpakAsset.Modules.MoveAsset.Infrastructure", "UnpakAsset.Modules.MoveAsset.Infrastructure\UnpakAsset.Modules.MoveAsset.Infrastructure.csproj", "{BB07933B-8161-4DA7-91AC-926AECDC6161}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnpakAsset.Modules.MoveAsset.Presentation", "UnpakAsset.Modules.MoveAsset.Presentation\UnpakAsset.Modules.MoveAsset.Presentation.csproj", "{ACD6A3E0-BECE-4D66-8B38-84AB02067B94}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnpakAsset.Modules.MoveAsset.Presentation", "UnpakAsset.Modules.MoveAsset.Presentation\UnpakAsset.Modules.MoveAsset.Presentation.csproj", "{ACD6A3E0-BECE-4D66-8B38-84AB02067B94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnpakAsset.Modules.PhysicalAsset.Application", "UnpakAsset.Modules.PhysicalAsset.Application\UnpakAsset.Modules.PhysicalAsset.Application.csproj", "{E7B1FBA8-43D0-4A0D-ABD8-09E3EE23323C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnpakAsset.Modules.PhysicalAsset.Domain", "UnpakAsset.Modules.PhysicalAsset.Domain\UnpakAsset.Modules.PhysicalAsset.Domain.csproj", "{745D4A84-F705-43A3-9B9F-E8D778A4CDC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnpakAsset.Modules.PhysicalAsset.Infrastructure", "UnpakAsset.Modules.PhysicalAsset.Infrastructure\UnpakAsset.Modules.PhysicalAsset.Infrastructure.csproj", "{3C02A78F-9339-40A4-AB71-89842F7FEA1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnpakAsset.Modules.PhysicalAsset.Presentation", "UnpakAsset.Modules.PhysicalAsset.Presentation\UnpakAsset.Modules.PhysicalAsset.Presentation.csproj", "{27F780DD-947A-4B22-85BD-90D125CCAE2B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -157,6 +165,22 @@ Global
 		{ACD6A3E0-BECE-4D66-8B38-84AB02067B94}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ACD6A3E0-BECE-4D66-8B38-84AB02067B94}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ACD6A3E0-BECE-4D66-8B38-84AB02067B94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7B1FBA8-43D0-4A0D-ABD8-09E3EE23323C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7B1FBA8-43D0-4A0D-ABD8-09E3EE23323C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7B1FBA8-43D0-4A0D-ABD8-09E3EE23323C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7B1FBA8-43D0-4A0D-ABD8-09E3EE23323C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{745D4A84-F705-43A3-9B9F-E8D778A4CDC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{745D4A84-F705-43A3-9B9F-E8D778A4CDC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{745D4A84-F705-43A3-9B9F-E8D778A4CDC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{745D4A84-F705-43A3-9B9F-E8D778A4CDC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C02A78F-9339-40A4-AB71-89842F7FEA1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C02A78F-9339-40A4-AB71-89842F7FEA1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C02A78F-9339-40A4-AB71-89842F7FEA1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C02A78F-9339-40A4-AB71-89842F7FEA1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27F780DD-947A-4B22-85BD-90D125CCAE2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27F780DD-947A-4B22-85BD-90D125CCAE2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27F780DD-947A-4B22-85BD-90D125CCAE2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27F780DD-947A-4B22-85BD-90D125CCAE2B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -191,6 +215,10 @@ Global
 		{7954C6EC-FE42-4BA5-868A-0BF384DC98C3} = {A81EC041-C8CD-46F5-92EA-CA362C703C2C}
 		{BB07933B-8161-4DA7-91AC-926AECDC6161} = {A81EC041-C8CD-46F5-92EA-CA362C703C2C}
 		{ACD6A3E0-BECE-4D66-8B38-84AB02067B94} = {A81EC041-C8CD-46F5-92EA-CA362C703C2C}
+		{E7B1FBA8-43D0-4A0D-ABD8-09E3EE23323C} = {2D08EF98-EEAD-484F-901C-BB6D27E3F311}
+		{745D4A84-F705-43A3-9B9F-E8D778A4CDC0} = {2D08EF98-EEAD-484F-901C-BB6D27E3F311}
+		{3C02A78F-9339-40A4-AB71-89842F7FEA1B} = {2D08EF98-EEAD-484F-901C-BB6D27E3F311}
+		{27F780DD-947A-4B22-85BD-90D125CCAE2B} = {2D08EF98-EEAD-484F-901C-BB6D27E3F311}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E947355F-3F8C-4FC6-92C7-73110AFFA40A}

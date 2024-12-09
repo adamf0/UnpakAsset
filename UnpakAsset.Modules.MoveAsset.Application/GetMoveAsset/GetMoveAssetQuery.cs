@@ -1,5 +1,5 @@
 ﻿using UnpakAsset.Common.Application.Messaging;
-using UnpakAsset.Modules.AssignAsset.Application.GetMoveAsset;
+using UnpakAsset.Modules.MoveAsset.Application.GetMoveAsset;
 
 namespace UnpakAsset.Modules.MoveAsset.Application.GetMoveAsset
 {

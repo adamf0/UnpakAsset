@@ -74,6 +74,22 @@ namespace UnpakAsset.Modules.MoveAsset.Domain.MoveAsset
                 }
 
                 if (
+                    tipe == TypeMove.Group.ToEnumString() &&
+                    (grup?.Length > 0)
+                )
+                {
+                    return Result.Failure<MoveAsset>(MoveAssetErrors.GroupNotFound);
+                }
+
+                if (
+                    tipe == TypeMove.Location.ToEnumString() &&
+                    (lokasi?.Length > 0)
+                )
+                {
+                    return Result.Failure<MoveAsset>(MoveAssetErrors.LocationNotFound);
+                }
+
+                if (
                     (grup == null || grup.Length > 0) &&
                     (lokasi == null || lokasi.Length > 0)
                 )
@@ -95,6 +111,22 @@ namespace UnpakAsset.Modules.MoveAsset.Domain.MoveAsset
                 )
                 {
                     return Result.Failure<MoveAsset>(MoveAssetErrors.GroupAndLocationDestinationInvalidCategory);
+                }
+
+                if (
+                    tipe == TypeMove.Group.ToEnumString() &&
+                    (grup_target.Length > 0)
+                )
+                {
+                    return Result.Failure<MoveAsset>(MoveAssetErrors.GroupDestinationNotFound);
+                }
+
+                if (
+                    tipe == TypeMove.Location.ToEnumString() &&
+                    (lokasi_target.Length > 0)
+                )
+                {
+                    return Result.Failure<MoveAsset>(MoveAssetErrors.LocationDestinationNotFound);
                 }
             }
             else if(tipe==TypeMove.Personal.ToEnumString() && string.IsNullOrWhiteSpace(user_target))

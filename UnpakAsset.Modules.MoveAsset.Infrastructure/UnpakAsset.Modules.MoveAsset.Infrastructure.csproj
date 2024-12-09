@@ -21,7 +21,5 @@
 		<ProjectReference Include="..\UnpakAsset.Modules.MoveAsset.Application\UnpakAsset.Modules.MoveAsset.Application.csproj" />
 		<ProjectReference Include="..\UnpakAsset.Modules.MoveAsset.Domain\UnpakAsset.Modules.MoveAsset.Domain.csproj" />
 		<ProjectReference Include="..\UnpakAsset.Modules.MoveAsset.Presentation\UnpakAsset.Modules.MoveAsset.Presentation.csproj" />
-
-
 	</ItemGroup>
 </Project>
