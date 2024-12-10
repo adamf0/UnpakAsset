@@ -25,11 +25,6 @@ namespace UnpakAsset.Modules.PhysicalAsset.Domain.PhysicalAsset
                     _result = Result.Failure<PhysicalAsset>(PhysicalAssetErrors.TypeNotFound(_asset.Tipe));
                 }
 
-                if (string.IsNullOrWhiteSpace(_asset.Tipe))
-                {
-                    _result = Result.Failure<PhysicalAsset>(PhysicalAssetErrors.TypeNotFound(_asset.Tipe));
-                }
-
                 if (Array.IndexOf(new[] { TypePhysical.Group.ToEnumString(), TypePhysical.Location.ToEnumString()}, _asset.Tipe) < 0)
                 {
                     _result = Result.Failure<PhysicalAsset>(PhysicalAssetErrors.TypeIvalid(_asset.Tipe));

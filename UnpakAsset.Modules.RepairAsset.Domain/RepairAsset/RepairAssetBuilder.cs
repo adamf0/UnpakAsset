@@ -25,11 +25,6 @@ namespace UnpakAsset.Modules.RepairAsset.Domain.RepairAsset
                     _result = Result.Failure<RepairAsset>(RepairAssetErrors.TypeNotFound(_asset.Tipe));
                 }
 
-                if (string.IsNullOrWhiteSpace(_asset.Tipe))
-                {
-                    _result = Result.Failure<RepairAsset>(RepairAssetErrors.TypeNotFound(_asset.Tipe));
-                }
-
                 if (Array.IndexOf(new[] { TypePhysical.Group.ToEnumString(), TypePhysical.Location.ToEnumString()}, _asset.Tipe) < 0)
                 {
                     _result = Result.Failure<RepairAsset>(RepairAssetErrors.TypeIvalid(_asset.Tipe));
