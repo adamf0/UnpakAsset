@@ -1,0 +1,16 @@
+C:\dev_net\UnpakAsset\UnpakAsset.Modules.DisposalAsset.Domain\bin\Debug\net8.0\UnpakAsset.Modules.DisposalAsset.Domain.deps.json
+C:\dev_net\UnpakAsset\UnpakAsset.Modules.DisposalAsset.Domain\bin\Debug\net8.0\UnpakAsset.Modules.DisposalAsset.Domain.dll
+C:\dev_net\UnpakAsset\UnpakAsset.Modules.DisposalAsset.Domain\bin\Debug\net8.0\UnpakAsset.Modules.DisposalAsset.Domain.pdb
+C:\dev_net\UnpakAsset\UnpakAsset.Modules.DisposalAsset.Domain\bin\Debug\net8.0\UnpakAsset.Common.Domain.dll
+C:\dev_net\UnpakAsset\UnpakAsset.Modules.DisposalAsset.Domain\bin\Debug\net8.0\UnpakAsset.Common.Domain.pdb
+C:\dev_net\UnpakAsset\UnpakAsset.Modules.DisposalAsset.Domain\obj\Debug\net8.0\UnpakAsset.Modules.DisposalAsset.Domain.csproj.AssemblyReference.cache
+C:\dev_net\UnpakAsset\UnpakAsset.Modules.DisposalAsset.Domain\obj\Debug\net8.0\UnpakAsset.Modules.DisposalAsset.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev_net\UnpakAsset\UnpakAsset.Modules.DisposalAsset.Domain\obj\Debug\net8.0\UnpakAsset.Modules.DisposalAsset.Domain.AssemblyInfoInputs.cache
+C:\dev_net\UnpakAsset\UnpakAsset.Modules.DisposalAsset.Domain\obj\Debug\net8.0\UnpakAsset.Modules.DisposalAsset.Domain.AssemblyInfo.cs
+C:\dev_net\UnpakAsset\UnpakAsset.Modules.DisposalAsset.Domain\obj\Debug\net8.0\UnpakAsset.Modules.DisposalAsset.Domain.csproj.CoreCompileInputs.cache
+C:\dev_net\UnpakAsset\UnpakAsset.Modules.DisposalAsset.Domain\obj\Debug\net8.0\UnpakAsset.Modules.DisposalAsset.Domain.sourcelink.json
+C:\dev_net\UnpakAsset\UnpakAsset.Modules.DisposalAsset.Domain\obj\Debug\net8.0\UnpakAss.AEE23DB0.Up2Date
+C:\dev_net\UnpakAsset\UnpakAsset.Modules.DisposalAsset.Domain\obj\Debug\net8.0\UnpakAsset.Modules.DisposalAsset.Domain.dll
+C:\dev_net\UnpakAsset\UnpakAsset.Modules.DisposalAsset.Domain\obj\Debug\net8.0\refint\UnpakAsset.Modules.DisposalAsset.Domain.dll
+C:\dev_net\UnpakAsset\UnpakAsset.Modules.DisposalAsset.Domain\obj\Debug\net8.0\UnpakAsset.Modules.DisposalAsset.Domain.pdb
+C:\dev_net\UnpakAsset\UnpakAsset.Modules.DisposalAsset.Domain\obj\Debug\net8.0\ref\UnpakAsset.Modules.DisposalAsset.Domain.dll

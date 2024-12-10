@@ -1,9 +1,3 @@
-C:\dev_net\UnpakAsset\UnpakAsset.Modules.RepairAsset.Infrastructure\obj\Debug\net8.0\UnpakAsset.Modules.RepairAsset.Infrastructure.csproj.AssemblyReference.cache
-C:\dev_net\UnpakAsset\UnpakAsset.Modules.RepairAsset.Infrastructure\obj\Debug\net8.0\UnpakAsset.Modules.RepairAsset.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
-C:\dev_net\UnpakAsset\UnpakAsset.Modules.RepairAsset.Infrastructure\obj\Debug\net8.0\UnpakAsset.Modules.RepairAsset.Infrastructure.AssemblyInfoInputs.cache
-C:\dev_net\UnpakAsset\UnpakAsset.Modules.RepairAsset.Infrastructure\obj\Debug\net8.0\UnpakAsset.Modules.RepairAsset.Infrastructure.AssemblyInfo.cs
-C:\dev_net\UnpakAsset\UnpakAsset.Modules.RepairAsset.Infrastructure\obj\Debug\net8.0\UnpakAsset.Modules.RepairAsset.Infrastructure.csproj.CoreCompileInputs.cache
-C:\dev_net\UnpakAsset\UnpakAsset.Modules.RepairAsset.Infrastructure\obj\Debug\net8.0\UnpakAsset.Modules.RepairAsset.Infrastructure.sourcelink.json
 C:\dev_net\UnpakAsset\UnpakAsset.Modules.RepairAsset.Infrastructure\bin\Debug\net8.0\UnpakAsset.Modules.RepairAsset.Infrastructure.deps.json
 C:\dev_net\UnpakAsset\UnpakAsset.Modules.RepairAsset.Infrastructure\bin\Debug\net8.0\UnpakAsset.Modules.RepairAsset.Infrastructure.dll
 C:\dev_net\UnpakAsset\UnpakAsset.Modules.RepairAsset.Infrastructure\bin\Debug\net8.0\UnpakAsset.Modules.RepairAsset.Infrastructure.pdb
@@ -21,6 +15,12 @@ C:\dev_net\UnpakAsset\UnpakAsset.Modules.RepairAsset.Infrastructure\bin\Debug\ne
 C:\dev_net\UnpakAsset\UnpakAsset.Modules.RepairAsset.Infrastructure\bin\Debug\net8.0\UnpakAsset.Modules.RepairAsset.Presentation.pdb
 C:\dev_net\UnpakAsset\UnpakAsset.Modules.RepairAsset.Infrastructure\bin\Debug\net8.0\UnpakAsset.Common.Domain.pdb
 C:\dev_net\UnpakAsset\UnpakAsset.Modules.RepairAsset.Infrastructure\bin\Debug\net8.0\UnpakAsset.Common.Presentation.pdb
+C:\dev_net\UnpakAsset\UnpakAsset.Modules.RepairAsset.Infrastructure\obj\Debug\net8.0\UnpakAsset.Modules.RepairAsset.Infrastructure.csproj.AssemblyReference.cache
+C:\dev_net\UnpakAsset\UnpakAsset.Modules.RepairAsset.Infrastructure\obj\Debug\net8.0\UnpakAsset.Modules.RepairAsset.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev_net\UnpakAsset\UnpakAsset.Modules.RepairAsset.Infrastructure\obj\Debug\net8.0\UnpakAsset.Modules.RepairAsset.Infrastructure.AssemblyInfoInputs.cache
+C:\dev_net\UnpakAsset\UnpakAsset.Modules.RepairAsset.Infrastructure\obj\Debug\net8.0\UnpakAsset.Modules.RepairAsset.Infrastructure.AssemblyInfo.cs
+C:\dev_net\UnpakAsset\UnpakAsset.Modules.RepairAsset.Infrastructure\obj\Debug\net8.0\UnpakAsset.Modules.RepairAsset.Infrastructure.csproj.CoreCompileInputs.cache
+C:\dev_net\UnpakAsset\UnpakAsset.Modules.RepairAsset.Infrastructure\obj\Debug\net8.0\UnpakAsset.Modules.RepairAsset.Infrastructure.sourcelink.json
 C:\dev_net\UnpakAsset\UnpakAsset.Modules.RepairAsset.Infrastructure\obj\Debug\net8.0\UnpakAss.EB15DFCF.Up2Date
 C:\dev_net\UnpakAsset\UnpakAsset.Modules.RepairAsset.Infrastructure\obj\Debug\net8.0\UnpakAsset.Modules.RepairAsset.Infrastructure.dll
 C:\dev_net\UnpakAsset\UnpakAsset.Modules.RepairAsset.Infrastructure\obj\Debug\net8.0\refint\UnpakAsset.Modules.RepairAsset.Infrastructure.dll

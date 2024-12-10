@@ -32,6 +32,8 @@
 	  <ProjectReference Include="..\UnpakAsset.Modules.Asset.Infrastructure\UnpakAsset.Modules.Asset.Infrastructure.csproj" />
 	  <ProjectReference Include="..\UnpakAsset.Modules.AssignAsset.Application\UnpakAsset.Modules.AssignAsset.Application.csproj" />
 	  <ProjectReference Include="..\UnpakAsset.Modules.AssignAsset.Infrastructure\UnpakAsset.Modules.AssignAsset.Infrastructure.csproj" />
+	  <ProjectReference Include="..\UnpakAsset.Modules.DisposalAsset.Application\UnpakAsset.Modules.DisposalAsset.Application.csproj" />
+	  <ProjectReference Include="..\UnpakAsset.Modules.DisposalAsset.Infrastructure\UnpakAsset.Modules.DisposalAsset.Infrastructure.csproj" />
 	  <ProjectReference Include="..\UnpakAsset.Modules.MoveAsset.Application\UnpakAsset.Modules.MoveAsset.Application.csproj" />
 	  <ProjectReference Include="..\UnpakAsset.Modules.MoveAsset.Infrastructure\UnpakAsset.Modules.MoveAsset.Infrastructure.csproj" />
 	  <ProjectReference Include="..\UnpakAsset.Modules.PhysicalAsset.Application\UnpakAsset.Modules.PhysicalAsset.Application.csproj" />

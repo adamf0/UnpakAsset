@@ -8,6 +8,7 @@ using UnpakAsset.Modules.AssignAsset.Infrastructure;
 using UnpakAsset.Modules.MoveAsset.Infrastructure;
 using UnpakAsset.Modules.PhysicalAsset.Infrastructure;
 using UnpakAsset.Modules.RepairAsset.Infrastructure;
+using UnpakAsset.Modules.DisposalAsset.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Host.UseSerilog((context, loggerConfig) => loggerConfig.ReadFrom.Configuration(context.Configuration));
@@ -22,6 +23,7 @@ builder.Services.AddApplication([
     UnpakAsset.Modules.AssignAsset.Application.AssemblyReference.Assembly,
     UnpakAsset.Modules.PhysicalAsset.Application.AssemblyReference.Assembly,
     UnpakAsset.Modules.RepairAsset.Application.AssemblyReference.Assembly,
+    UnpakAsset.Modules.DisposalAsset.Application.AssemblyReference.Assembly,
     UnpakAsset.Modules.Tag.Application.AssemblyReference.Assembly,
 ]);
 
@@ -31,6 +33,7 @@ builder.Services.AddMoveAssetModule(builder.Configuration);
 builder.Services.AddAssignAssetModule(builder.Configuration);
 builder.Services.AddPhysicalAssetModule(builder.Configuration);
 builder.Services.AddRepairAssetModule(builder.Configuration);
+builder.Services.AddDisposalAssetModule(builder.Configuration);
 builder.Services.AddTagModule(builder.Configuration);
 
 builder.Services.AddEndpointsApiExplorer();
@@ -44,6 +47,7 @@ MoveAssetModule.MapEndpoints(app);
 AssignAssetModule.MapEndpoints(app);
 PhysicalAssetModule.MapEndpoints(app);
 RepairAssetModule.MapEndpoints(app);
+DisposalAssetModule.MapEndpoints(app);
 TagModule.MapEndpoints(app);
 
 if (app.Environment.IsDevelopment())
