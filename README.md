@@ -26,5 +26,11 @@ ini merupakan prototype aplikasi siasset terbaru menggunakan teknologi <b>NET Co
 9. modul repair asset
 10. modul ticket
 11. authentication
-12. docker
-13. reduce image & solve CVE image docker
+12. tracing log
+    - seq (untuk aplikasi)
+    - opentelemetry (transporter)
+    - jaeger (monitoring)
+    - nginx (format log)
+13. module secure image & pdf
+14. docker
+15. reduce image & solve CVE image docker
